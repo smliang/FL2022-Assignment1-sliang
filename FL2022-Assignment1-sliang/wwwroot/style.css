@@ -5,3 +5,55 @@
 h1 {
     font-weight: bolder;
 }
+
+#CoverArt {
+    max-width: 400px;
+}
+
+.bg-ng-blue {
+    background-color: #0060ae;
+}
+
+.bg-ng-yellow {
+    background-color: #faf386;
+}
+
+#ratingSection {
+    text-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+.star-rating-icons {
+    font-size: 38px;
+}
+
+    .star-rating-icons > i {
+        color: #ffc106;
+    }
+
+#Trailer {
+    max-width: 600px;
+}
+
+#Actors {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.actor {
+    white-space: nowrap;
+    margin: 15px;
+    width: 250px;
+}
+
+    .actor > div > p {
+        font-style: italic;
+        margin-top: 5px;
+    }
+
+.actor-image {
+    max-width: 150px;
+    border-radius: 50%;
+}

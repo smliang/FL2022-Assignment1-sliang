@@ -1,6 +1,6 @@
-# Assignment 1 MIS 521 Fall 2022
-
-Sarah Liang
+# Assignment 1 MIS 521 Fall 2022 - Sarah Liang
+ 
+ Azure Site: https://fl2022-assignment1-sliang.azurewebsites.net/ 
 
 ## Requirements
 

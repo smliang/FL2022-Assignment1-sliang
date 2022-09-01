@@ -6,16 +6,16 @@ h1 {
     font-weight: bolder;
 }
 
-#CoverArt {
-    max-width: 400px;
-}
-
 .bg-ng-blue {
     background-color: #0060ae;
 }
 
 .bg-ng-yellow {
     background-color: #faf386;
+}
+
+.titleGraphic {
+    margin-top: 2rem;
 }
 
 #ratingSection {
@@ -40,6 +40,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
+    padding: 0px;
 }
 
 .actor {

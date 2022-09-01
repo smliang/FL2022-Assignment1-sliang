@@ -12,7 +12,8 @@
 
     <title>New Girl</title>
 </head>
-<body>
+<!--SET BG COLOR w Bootstrap-->
+<body class="bg-light">
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-5">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,22 +41,24 @@
 
     <div class="container titleGraphic">
         <div class="row justify-content-center">
-            <div class="col-6"><img src="img/title.png" class="img-fluid" alt="title photo"></div>
+            <div class="col-md-6 col-sm-10"><img src="img/title.png" class="img-fluid" alt="title photo"></div>
         </div>
     </div>
 
     <div id="aboutSection" class="container my-5">
         <div class="row p-5 align-items-center rounded-3 border shadow-lg bg-ng-blue text-white">
             <div class="col-md-7">
+                <!--TITLE BLOCK-->
                 <h1 id="Title" class="display-4 fw-bold lh-1">Hey Girl, Wucha Doing?</h1>
+                <!--SUMMARY-->
                 <p id="Summary" class="lead">After a bad break-up, Jess, an offbeat young woman, moves into an apartment loft with three single men. Although they find her behavior very unusual, the men support her - most of the time.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                    <!--TODO: scroll down-->
                     <a class="btn btn-warning btn-lg px-4 me-md-2 fw-bold" href="#trailerSection" role="button">Learn More</a>
                 </div>
             </div>
-            <div class="col-md-2">
-                <img id="CoverArt" class="rounded-circle shadow offset-md-3" src="img/jessica-day.jpg" alt="Jessica Day">
+            <div class="col-md-5">
+                <!--COVER ART-->
+                <img id="CoverArt" class="rounded-circle shadow img-fluid" src="img/jessica-day.jpg" alt="Jessica Day">
             </div>
         </div>
     </div>
@@ -75,9 +78,11 @@
         </div>
         <div class="row justify-content-center">
             <div class="col text-center">
+                <!--RATING-->
                 <h5 id="Rating" class="display-3 fw-bold">7.7/10</h5>
                 <div>
                     <p class="m-1">View ratings info and more on</p>
+                    <!--IMDB LINK-->
                     <a href="https://www.imdb.com/title/tt1826940/" target="_none" role="button" class="btn btn-warning btn-lg px-4 me-md-2 fw-bold">IMDb Page</a>
                 </div>
 
@@ -87,6 +92,7 @@
 
     <div id="trailerSection" class="container my-5">
         <div class="row rounded-3 p-5 justify-content-center mw-border shadow-lg bg-ng-blue text-white">
+            <!--TRAILER-->
             <iframe class="col" id="Trailer" width="560" height="315" src="https://www.youtube.com/embed/D1NDNFZGY7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
@@ -95,6 +101,7 @@
         <div class="text-center">
             <h1 class="display-4 fw-bold">Cast</h1>
         </div>
+        <!--ACTORS LIST-->
         <ul id="Actors" class="">
             <li class="actor text-center">
                 <div>
@@ -141,7 +148,12 @@
         </ul>
     </div>
 
-    <!--todo add footer-->
+    <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 mt-4 border-top bg-dark">
+        <div class="col d-flex flex-column align-items-center text-center justify-content-center">
+            <span class="mb-3 mb-md-0 text-muted"><a href="https://github.com/smliang" target="_blank" class="text-white">Sarah Liang</a> built this website on September 1, 2022.</span>
+            <span class="mb-3 mb-md-0 text-muted fst-italic">She really likes New Girl.</span>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQh4/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
